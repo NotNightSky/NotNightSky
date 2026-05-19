@@ -10,7 +10,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@v3.34
+      - uses: lowlighter/metrics@v3.33
         with:
           filename: github-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
